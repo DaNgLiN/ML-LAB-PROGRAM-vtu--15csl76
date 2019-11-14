@@ -1,0 +1,8 @@
+Outlook,Temperature,Humidity,Wind
+sunny,cool,normal,weak 
+sunny,mild,normal,strong
+overcast,mild,high,strong 
+overcast,hot,normal,weak 
+rain,mild,high,strong
+rain,mild,normal,weak
+sunny,mild,high,weak

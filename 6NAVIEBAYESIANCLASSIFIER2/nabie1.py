@@ -1,5 +1,5 @@
 import pandas as pd 
-msg=pd.read_csv('C:\\Users\\Gunjan\\Desktop\\ML_Alorithms-Day2\\NaiveBayesianClassifier\\data6.csv',names=['message','label']) #Tabular form data 
+msg=pd.read_csv('data6.csv',names=['message','label']) #Tabular form data 
 print('Total instances in the dataset:',msg.shape[0])
 
 msg['labelnum']=msg.label.map({'pos':1,'neg':0}) 

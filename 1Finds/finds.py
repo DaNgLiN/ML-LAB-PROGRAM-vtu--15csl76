@@ -15,7 +15,7 @@ print ("\n The most specific hypothesis : ['0','0','0','0','0','0']\n")
 
 a = []
 print("\n The Given Training Data Set \n")
-with open('C:\\Users\\Gunjan\\Desktop\\ML_Dataset\\FindS\\enjoysport.csv', 'r') as csvFile:
+with open('enjoysport.csv', 'r') as csvFile:
     reader = csv.reader(csvFile)
     for row in reader:
         a.append (row)

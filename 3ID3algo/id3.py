@@ -93,13 +93,13 @@ def classify(node,x_test,features):
             classify(n,x_test,features)
 
 #''' Main program '''
-dataset, features = load_csv("C:\\Users\\Gunjan\\Desktop\\ML_Dataset\\ID3\\PlayTennis.csv") # Read Tennis data 
+dataset, features = load_csv("PlayTennis.csv") # Read Tennis data 
 node = build_tree(dataset, features) # Build decision tree
 
 print("The decision tree for the dataset using ID3 algorithm is ") 
 print_tree(node, 0)
 
-testdata, features = load_csv("C:\\Users\\Gunjan\\Desktop\\ML_Dataset\\ID3\\a.csv") 
+testdata, features = load_csv("PlayTennisTestData.csv") 
 for xtest in testdata:
     print("The test instance : ",xtest) 
     print("The predicted label : ", end="") 

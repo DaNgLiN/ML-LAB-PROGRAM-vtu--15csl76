@@ -83,7 +83,7 @@ def getAccuracy(testSet, predictions):
             correct += 1
     return (correct/float(len(testSet))) * 100.0
 
-dataset = loadCsv('C:\\Users\\Gunjan\\Desktop\\ML_Dataset\\NaiveBayse5\\dataset5.csv');
+dataset = loadCsv('dataset5.csv');
 print('Pima Indian Diabetes Dataset loaded...') 
 print('Total instances available :',len(dataset))
 print('Total attributes present :',len(dataset[0])-1)
