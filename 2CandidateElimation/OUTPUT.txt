@@ -1,0 +1,5 @@
+
+Final Specific_h:
+['Sunny' 'Warm' 'High' 'Strong' '?' '?']
+Final General_h:
+[['Sunny', '?', '?', '?', '?', '?'], ['?', 'Warm', '?', '?', '?', '?']]

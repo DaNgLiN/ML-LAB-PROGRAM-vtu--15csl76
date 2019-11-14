@@ -1,0 +1,26 @@
+The most general hypothesis : ['?','?','?','?','?','?']
+
+
+ The most specific hypothesis : ['0','0','0','0','0','0']
+
+
+ The Given Training Data Set 
+
+['sunny', 'warm', 'normal', 'strong', 'warm', 'same', 'Yes']
+['sunny', 'warm', 'high', 'strong', 'warm', 'same', 'Yes']
+['rainy', 'cold', 'high', 'strong', 'warm', 'change', 'No']
+['sunny', 'warm', 'high', 'strong', 'cool', 'change', 'Yes']
+
+ The initial value of hypothesis: 
+['0', '0', '0', '0', '0', '0']
+
+ Find S: Finding a Maximally Specific Hypothesis
+
+ For Training Example No :0 the hypothesis is  ['sunny', 'warm', 'normal', 'strong', 'warm', 'same']
+ For Training Example No :1 the hypothesis is  ['sunny', 'warm', '?', 'strong', 'warm', 'same']
+ For Training Example No :2 the hypothesis is  ['sunny', 'warm', '?', 'strong', 'warm', 'same']
+ For Training Example No :3 the hypothesis is  ['sunny', 'warm', '?', 'strong', '?', '?']
+
+ The Maximally Specific Hypothesis for a given Training Examples :
+
+['sunny', 'warm', '?', 'strong', '?', '?']
