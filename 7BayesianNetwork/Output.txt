@@ -1,0 +1,54 @@
+Few examples from the dataset are given below
+   age  sex  cp  trestbps  chol  fbs  restecg  thalach  exang  oldpeak  slope  \
+0   63    1   3       145   233    1        0      150      0      2.3      0   
+1   37    1   2       130   250    0        1      187      0      3.5      0   
+2   41    0   1       130   204    0        0      172      0      1.4      2   
+3   56    1   1       120   236    0        1      178      0      0.8      2   
+4   57    0   0       120   354    0        1      163      1      0.6      2   
+
+   ca  thal  heartdisease  
+0   0     1             1  
+1   0     2             1  
+2   0     2             1  
+3   0     2             1  
+4   0     2             1  
+
+ Attributes and datatypes
+age               int64
+sex               int64
+cp                int64
+trestbps          int64
+chol              int64
+fbs               int64
+restecg           int64
+thalach           int64
+exang             int64
+oldpeak         float64
+slope             int64
+ca                int64
+thal              int64
+heartdisease      int64
+dtype: object
+
+Learning CPDs using Maximum Likelihood Estimators...
+
+Inferencing with Bayesian Network:
+
+1.Probability of HeartDisease given Age=20
++----------------+---------------------+
+| heartdisease   |   phi(heartdisease) |
++================+=====================+
+| heartdisease_0 |              0.4058 |
++----------------+---------------------+
+| heartdisease_1 |              0.5942 |
++----------------+---------------------+
+
+2. Probability of HeartDisease given chol (Cholestoral) =100
++----------------+---------------------+
+| heartdisease   |   phi(heartdisease) |
++================+=====================+
+| heartdisease_0 |              0.0000 |
++----------------+---------------------+
+| heartdisease_1 |              1.0000 |
++----------------+---------------------+
+1
