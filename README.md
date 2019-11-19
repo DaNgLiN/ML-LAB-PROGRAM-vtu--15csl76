@@ -1,8 +1,8 @@
 # ML-VTU-LAB
 Machine Learning Lab Program For 7(Seventh) Semester :- VTU MACHINE LEARNING LAB
- BY-: #DaNgLiN
+ # by DaNgLiN
 
-#program list
+# program list
 
 1. Implement and demonstrate the FIND-S algorithm for finding the most specific hypothesis based on a given set of training data samples. Read the training data from a .CSV file.
 
